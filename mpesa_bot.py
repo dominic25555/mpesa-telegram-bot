@@ -1,5 +1,5 @@
 # mpesa-telegram-bot
-A Telegram bot that accepts M-Pesa payments via Daraja API
+# A Telegram bot that accepts M-Pesa payments via Daraja API
 import requests
 import base64
 from datetime import datetime
