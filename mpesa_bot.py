@@ -49,7 +49,7 @@ def stk_push(phone_number, amount):
     return response.json()
 
 # === STEP 4: TELEGRAM BOT COMMANDS ===
-async def Hey😁(update, context):
+async def Hey(update, context):
     await update.message.reply_text("Enter your phone number in format 2547XXXXXXXX.")
     # For now, just test with your own number
     phone = "254113869263"  # Replace with your number in sandbox
