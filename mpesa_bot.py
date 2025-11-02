@@ -6,7 +6,7 @@ from datetime import datetime
 from telegram.ext import Application, CommandHandler
 
 # === STEP 1: FILL THESE DETAILS ===
-BOT_TOKEN = 8085165951:AAHHvxFzc39QtONnVFYdnlP3kuE0I_eWNIg
+BOT_TOKEN = "8085165951:AAHHvxFzc39QtONnVFYdnlP3kuE0I_eWNIg"
 
 CONSUMER_KEY = "tI7C5MAnGpqy59AfwNNComn4uirateGYOtbUI9GaInvDaM2M"
 CONSUMER_SECRET = "5jG2Wb9J4yGjKibfhgMYdfMnh2oEGXY9UIfSmrd9TLIL2kMnwU3D3k9kRnEToZ2o"
