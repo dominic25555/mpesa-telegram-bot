@@ -49,16 +49,16 @@ def stk_push(phone_number, amount):
     return response.json()
 
 # === STEP 4: TELEGRAM BOT COMMANDS ===
-async def paybill(update, context):
+async def Hey😁(update, context):
     await update.message.reply_text("Enter your phone number in format 2547XXXXXXXX.")
     # For now, just test with your own number
     phone = "254113869263"  # Replace with your number in sandbox
     result = stk_push(phone, 10)  # Amount = 100KES
-    await update.message.reply_text(f"STK Push sent! Check your phone.\n\nResponse: {result}")
+    await update.message.reply_text(f"STK Push sent! Check your phone karibu chai.\n\nResponse: {result}")
 
 def main():
     app = Application.builder().token(BOT_TOKEN).build()
-    app.add_handler(CommandHandler("paybill", paybill))
+    app.add_handler(CommandHandler("Hey Welcome", paybill))
     app.run_polling()
 
 if __name__ == "__main__":
